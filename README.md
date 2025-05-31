@@ -3,11 +3,22 @@ This project demonstrates how to build a Model Context Protocol (MCP) Server for
 
 ## Quick Start
 
-1. Create a virtual environment: (on mac)
-   ```zsh
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
+1. Create a virtual environment:
+   - On macOS/Linux:
+     ```zsh
+     python3 -m venv .venv
+     source .venv/bin/activate
+     ```
+   - On Windows (Command Prompt):
+     ```cmd
+     python -m venv .venv
+     .venv\Scripts\activate
+     ```
+   - On Windows (PowerShell):
+     ```powershell
+     python -m venv .venv
+     .venv\Scripts\Activate.ps1
+     ```
 2. Install dependencies:
    ```zsh
    pip install -r requirements.txt
@@ -20,6 +31,7 @@ This project demonstrates how to build a Model Context Protocol (MCP) Server for
    ```zsh
    python agent.py
    ```
+
 
 **Note:** Make sure you have Ollama running for LLM support.
 
