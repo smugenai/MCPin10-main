@@ -3,7 +3,7 @@ This project demonstrates how to build a Model Context Protocol (MCP) Server for
 
 ## Quick Start
 
-1. Create a virtual environment:
+1. Create a virtual environment: (on mac)
    ```zsh
    python3 -m venv .venv
    source .venv/bin/activate
@@ -19,11 +19,6 @@ This project demonstrates how to build a Model Context Protocol (MCP) Server for
 4. Run the agent:
    ```zsh
    python agent.py
-   ```
-5. (Optional) Install and run Langflow:
-   ```zsh
-   pip install langflow
-   langflow run
    ```
 
 **Note:** Make sure you have Ollama running for LLM support.
