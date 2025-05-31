@@ -1,3 +1,4 @@
+# MCP in 10 Minutes
 
 This project demonstrates how to build a Model Context Protocol (MCP) Server for Yahoo Finance data in Python.
 
