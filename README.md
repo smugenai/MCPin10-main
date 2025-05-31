@@ -31,7 +31,7 @@ This project demonstrates how to build a Model Context Protocol (MCP) Server for
 ## References
 - MCP SDK: https://github.com/modelcontextprotocol/create-python-server
 
-# Original files by Nick Renotte, Modified by SMUGENAI
+Original files by Nick Renotte, Modified by SMUGENAI
 
 ## License
 MIT
