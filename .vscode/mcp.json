@@ -1,9 +1,0 @@
-{
-  "servers": {
-    "mcp-yahoo-finance": {
-      "type": "stdio",
-      "command": "uv",
-      "args": ["run", "mcp", "dev", "server.py"]
-    }
-  }
-}
