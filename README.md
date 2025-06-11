@@ -1,4 +1,4 @@
-# MCP in 10 Minutes
+# Custom MCP server and agent
 
 This project demonstrates how to build a Model Context Protocol (MCP) Server for Yahoo Finance data in Python.
 
@@ -34,7 +34,7 @@ This project demonstrates how to build a Model Context Protocol (MCP) Server for
    ```
 
 
-**Note:** Make sure you have Ollama running for LLM support.
+**Note:** Make sure you have Ollama running to access the LLM.
 
 ## References
 - MCP SDK: https://github.com/modelcontextprotocol/create-python-server
