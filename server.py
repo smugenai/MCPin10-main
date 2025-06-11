@@ -5,17 +5,8 @@ from colorama import Fore
 # Bring in MCP Server SDK
 from mcp.server.fastmcp import FastMCP
 
-    # Format the numbers in the DataFrame for better readability.
-    # This will add comma separators for thousands and remove decimal places.
-    # NaN values will be represented by a dash.
-    formatted_string = income_stmt.style.format("{:,.0f}", na_rep="-").to_string()
-
-    return str(f"Quarterly income statement for {stock_ticker}:\n{formatted_string}")
-
 # Create server 
 mcp = FastMCP("yfinanceserver")
-
-# Add in a prompt function
 
 # Add in a prompt function
 @mcp.prompt()
@@ -23,8 +14,7 @@ def stock_summary(stock_data:str) -> str:
     """Prompt template for summarising stock price"""
     return f"""You are a financial assistant who summarises stock data.
                 Using the information below, summarise the data relevant for stock price movement
-                Data {stock_data}"""
-                
+                Data {stock_data}"""               
 
 # Build server function
 @mcp.tool()
